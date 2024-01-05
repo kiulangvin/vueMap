@@ -1,8 +1,8 @@
-import LMap from "./map.vue"
+import LMap from './Map.vue'
 
-LMap.install = (app)=>{
-    app.component(LMap.name, LMap)
+LMap.install = (app) => {
+  app.component(LMap.name, LMap)
 }
 
-export {LMap}
-export default LMap; 
+export { LMap }
+export default LMap

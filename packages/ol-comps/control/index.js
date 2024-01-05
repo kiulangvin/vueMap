@@ -1,8 +1,8 @@
-import LScale from "./Scale.vue"
+import LScale from './Scale.vue'
 
-LScale.install = (app)=>{
-    app.component(LScale.name, LScale)
+LScale.install = (app) => {
+  app.component(LScale.name, LScale)
 }
 
-export {LScale}
-export default LScale; 
+export { LScale }
+export default LScale
